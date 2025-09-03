@@ -153,7 +153,7 @@ def main():
     # 설정
     model_name = os.getenv('MODEL_NAME')
     data_dir = "conversations.jsonl"  # 데이터 파일 경로
-    output_dir = f"/_output"
+    output_dir = f"/qlora_output"
     
     print("데이터 로드 중...")
     dataset = load_and_process_data(data_dir)
