@@ -151,7 +151,7 @@ def main():
     
     # 설정
     model_name = os.getenv('MODEL_NAME')
-    data_dir = "/"  # 데이터 파일 경로
+    data_dir = "/root"  # 데이터 파일 경로
     output_dir = "/qlora_output"
     
     print("데이터 로드 중...")
